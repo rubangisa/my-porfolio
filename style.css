@@ -157,6 +157,25 @@ a:hover {
   transform: none;
 }
 
+.multiple-text {
+  color: darkblue;
+}
+
+.section_pic-container img {
+  animation: image 4s ease-in-out infinite;
+}
+
+@keyframes image {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
 /* SECTIONS */
 
 section {
