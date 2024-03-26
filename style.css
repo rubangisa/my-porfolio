@@ -161,7 +161,7 @@ a:hover {
   color: darkblue;
 }
 
-.section_pic-container img {
+.pic1 img {
   animation: image 4s ease-in-out infinite;
 }
 
@@ -170,7 +170,7 @@ a:hover {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(2rem);
+    transform: translateY(1.5rem);
   }
   100% {
     transform: translateY(0);
