@@ -405,9 +405,21 @@ article {
   position: relative;
 }
 
+.details-container:hover {
+  -webkit-box-shadow: inset 3px 9px 26px 12px rgba(237,239,242,0.77);
+  -moz-box-shadow: inset 3px 9px 26px 12px rgba(237,239,242,0.77);
+  box-shadow: inset 3px 9px 26px 12px rgba(237,239,242,0.77);
+}
+
 .color-container {
   border-color: rgb(163, 163, 163,);
   background: rgb(250, 250, 250);
+}
+
+.color-container {
+  -webkit-box-shadow: inset -2px -1px 11px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: inset -2px -1px 11px -3px rgba(0,0,0,0.75);
+box-shadow: inset -2px -1px 11px -3px rgba(0,0,0,0.75);
 }
 
 .project-img {
