@@ -19,12 +19,22 @@
     gap: 10px;
     width: 100%;
   }
+  .hamburger-menu {
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
+  }
 }
 
 @media screen and (max-width: 668px) {
   .footer-logo img {
     width: 200px;
     height: 200px;
+  }
+  .hamburger-menu {
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
   }
   .footer-logo {
     margin-bottom: 50px;
@@ -65,6 +75,11 @@
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
+  }
+  .hamburger-menu {
+    position: relative;
+    z-index: 10;
+    background-color: transparent;
   }
   #hamburger-nav {
     display: flex;
@@ -236,7 +251,12 @@
     }
     #projects{
       margin-top: 450px;
-    } 
+    }
+    .hamburger-menu {
+      position: relative;
+      z-index: 10;
+      background-color: transparent;
+    }
 }
 @media (width >= 2300px) {
     #contact {
