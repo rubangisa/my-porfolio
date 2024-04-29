@@ -13,6 +13,7 @@ const typed = new Typed('.multiple-text', {
     loop: true,
 });
 
+console.log(typed);
 const second = new Typed('.multiple-contact-dotes', {
     strings: ['. . .', '. . .'],
     typeSpeed:70,
