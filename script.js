@@ -12,8 +12,6 @@ const typed = new Typed('.multiple-text', {
     backDelay:1000,
     loop: true,
 });
-
-console.log(typed);
 const second = new Typed('.multiple-contact-dotes', {
     strings: ['. . .', '. . .'],
     typeSpeed:70,
