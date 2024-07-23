@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'Backend Developer', 'web Designer'],
+    strings: ['web Designer', 'Frontend Developer', 'Backend Developer', 'Graphic Designer'],
     typeSpeed:70,
     backSpeed:70,
     backDelay:1000,
