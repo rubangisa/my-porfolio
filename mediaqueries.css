@@ -238,9 +238,10 @@
 @media (width >= 1200px) {
   #projects{
     margin-top: 450px;
+    padding-top: 180px;
   }
   #contact {
-    padding-top: 450px;
+    padding-top: 750px;
     padding-bottom: 220px;
 }
 
